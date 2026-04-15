@@ -1,0 +1,27 @@
+# ── Secrets & local config ──
+.env
+.env.local
+.env.*.local
+*.env
+candid-backend/src/main/resources/application-local.properties
+
+# ── Frontend build ──
+candid-frontend/node_modules/
+candid-frontend/dist/
+candid-frontend/.vite/
+
+# ── Backend build ──
+candid-backend/target/
+candid-backend/*.log
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── IDE ──
+.idea/
+.vscode/
+*.iml
+
+# ── Claude Code ──
+.claude/
